@@ -42,9 +42,10 @@ li{
     
     
 }
-i{
+a{
     color: white;
     margin: 10px;
+    text-decoration: none;
     
     
 }
