@@ -2,3 +2,50 @@ body {
     background: hsl(257,40%,49%);
     background-image: url("./images/bg-desktop.svg")
 }
+.community{
+    display: inline-block;
+    font-family: "poppins", "sans-serif";
+    color: white;
+    position:absolute;
+    top: 107px
+    
+}
+
+.community h2{
+    font-size :30px;
+}
+.main-section{
+    padding-left: 40px
+}
+
+header{
+    padding-left: 40px
+}
+.community{
+    padding-left: 30px
+}
+
+button{
+    width: 170px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border: none; 
+    color: hsl(257,40%,49%);
+    font-size: 14px;
+
+}
+li{
+    list-style: none;
+    color:white;
+    display: inline-block;
+}
+i{
+    color: white;
+    margin: 10px;
+    
+    
+}
+ul{
+    text-align: right;
+}
