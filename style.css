@@ -1,55 +1,93 @@
 body {
-    background: hsl(257,40%,49%);
-    background-image: url("./images/bg-desktop.svg")
-}
-.community{
-    display: inline-block;
-    font-family: "poppins", "sans-serif";
-    color: white;
-    position:absolute;
-    top: 107px
-    
+  background: hsl(257, 40%, 49%);
+  background-image: url("./images/bg-desktop.svg");
 }
 
-.community h2{
-    font-size :30px;
-}
-.main-section{
-    padding-left: 40px
-}
-
-header{
-    padding-left: 40px
-}
-.community{
-    padding-left: 30px
+.community {
+  display: inline-block;
+  font-family: "poppins", "sans-serif";
+  color: white;
+  position: absolute;
+  top: 107px;
 }
 
-button{
-    width: 170px;
-    height: 40px;
-    border-radius: 50px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-    border: none; 
-    color: hsl(257,40%,49%);
-    font-size: 14px;
+.community h2 {
+  font-size: 30px;
+}
 
+.main-section {
+  padding-left: 40px;
 }
-li{
-    list-style: none;
-    color:white;
-    display: inline-block;
-    
-    
+
+header {
+  padding-left: 40px;
 }
-a{
-    color: white;
-    margin: 10px;
-    text-decoration: none;
-    
-    
+
+.community {
+  padding-left: 30px;
 }
-ul{
-    text-align: right;
-    padding-right: 20px;
+
+button {
+  width: 170px;
+  height: 40px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+  color: hsl(257, 40%, 49%);
+  font-size: 14px;
+}
+
+li {
+  list-style: none;
+  color: white;
+  display: inline-block;
+}
+
+a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+
+ul {
+  text-align: right;
+  padding-right: 20px;
+}
+
+@media only screen and (max-device-width: 667px) and (orientation: portrait) {
+  header img {
+    width: 50%;
+    padding-top: 40px;
+  }
+  body {
+    margin: 0 20px;
+  }
+  header {
+    padding-left: 0px;
+  }
+
+  .main-section img {
+    width: 100%;
+    margin: 50px 0px;
+  }
+  .main-section {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+    top: 0;
+  }
+  .community {
+    display: block;
+    position: relative;
+    top: 0;
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .community h2 {
+    font-size: 20px;
+    text-align: center;
+  }
 }
